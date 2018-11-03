@@ -11,7 +11,7 @@ client = nexmo.Client(key=lines[0], secret=lines[1])
 TO_NUMBER = lines[2]
 
 client.send_message({
-'from': 'Acme Inc', 
+'from': 'Remind Me', 
 'to': TO_NUMBER,
 'text': 'testing 1234 is this working',
 
